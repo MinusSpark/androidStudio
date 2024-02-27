@@ -13,6 +13,18 @@
         android:theme="@style/Theme.LogInBaseDatos"
         tools:targetApi="31">
         <activity
+            android:name=".cancionBlackFriday"
+            android:exported="false" />
+        <activity
+            android:name=".cancionAmorYAmistad"
+            android:exported="false" />
+        <activity
+            android:name=".Navidad"
+            android:exported="false" />
+        <activity
+            android:name=".cancionHalloween"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

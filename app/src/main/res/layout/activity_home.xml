@@ -6,4 +6,117 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color"
+        android:orientation="vertical"
+        android:padding="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-35dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Bienvenido señore"
+            android:textColor="@color/yellow"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="50dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="361dp"
+            android:layout_height="174dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/iconologo_foreground"
+            tools:srcCompat="@mipmap/iconologo_foreground" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="¿Cuál es tu genero?"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="50dp" />
+
+        <EditText
+            android:id="@+id/genero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Introduce tu genero"
+            android:textSize="11dp"
+            android:textColorHint="@color/orange"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="121dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="¿Qué edad tienes?"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="50dp" />
+
+        <EditText
+            android:id="@+id/edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Introduce tu Edad"
+            android:textSize="11dp"
+            android:textColorHint="@color/orange"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="121dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Si te dieran a escoger entre estos 4 dias especiales: 1.Halloween 2.Navidad 3.Amor y Amistad 4.Padre, cual de estos elegirias? "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="50dp"
+            />
+
+        <EditText
+            android:id="@+id/cancion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Escribe el dia que te gusta, de forma que se vea  tal cual como aparece arriba"
+            android:textSize="9dp"
+            android:textColorHint="@color/orange"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="121dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/enviarEncuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center"
+            android:hint="Enviar Encuesta"
+            >
+        </Button>
+
+
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

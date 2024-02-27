@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cancionBlackFriday">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color"
+        android:orientation="vertical"
+        android:padding="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-35dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Has Elegido PADRE!"
+            android:textColor="@color/yellow"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="50dp">
+
+                <ImageView
+                    android:id="@+id/Halloween1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/cancion1padre_foreground" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="Mi Sangre"
+                    android:textSize="7dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="70dp">
+
+                <ImageView
+                    android:id="@+id/Halloween2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/cancion2padre_foreground" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="El Rey"
+                    android:textSize="7dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="50dp">
+
+                <ImageView
+                    android:id="@+id/Halloween3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/cancion3padre_foreground" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:textSize="7dp"
+                    android:text="El Nombre De Tu Padre"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="70dp">
+
+                <ImageView
+                    android:id="@+id/Halloween4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/cancion4padre_foreground"
+                    tools:srcCompat="@mipmap/cancion4padre_foreground" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="Father and Son"
+                    android:textSize="7dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/iconologo_foreground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Espero que le haya gustado la elección nuestra!"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
