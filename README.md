@@ -9,7 +9,7 @@ Vinyl Bros es una tienda de vinilos en línea diseñada para los amantes de la m
 
 Historial de Commits:
 
-Hemos realizado 2 Commits para llegar a la versión actual de nuestro código.
+Hemos realizado 4 Commits para llegar a la versión actual de nuestro código.
 
 Derechos de Autor
 
